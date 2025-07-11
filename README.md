@@ -27,6 +27,7 @@
 - Recommendation 
 
 ### Tech Stack
+- Microsft Excel
 
 ### Procedures
 - Data Cleaning and Processing
@@ -36,7 +37,7 @@
         - Home -> Editing [Find & Select] -> Go To Special -> Blanks -> OK
     - Check duplicates (for all datasets)
         - Data -> Data Tools [Remove Duplicates]
-    - Correct date_type issue with Sales data. Refer to [data_type_correction](/working_dir/date_type_correction)
+    - Correct date_type issue with Sales data. Refer to [data_type_correction](/working_dir/date_type_correction.ipynb)
     - Extract date (new column: Text_Date) from Sales_data_new
         - =TEXT(E2, "DD/MM/YYY")
     - Convert extracted date to actual date (new column: Actual_Date)
