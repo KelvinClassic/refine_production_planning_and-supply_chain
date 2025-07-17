@@ -93,4 +93,4 @@ To improve on-time deliveries, increase customer satisfaction and align producti
 - What is out of stock and by how many days can it be replenished?
 - What is the current production capacity for each SKU in hours?
 
-[View data](working_dir\data_visualization.pdf)
+[View data](/working_dir/data_visualization.pdf)
