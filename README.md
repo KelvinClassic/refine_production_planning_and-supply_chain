@@ -9,9 +9,11 @@
 ### Aim of Project
 
 #### - Cutomer Segmentation:
-    - To segment and profile Mas-More Ventures customer base to gain insights into their preferences, buying behaviours, and geographic distribution.
+    - To segment and profile Mas-More Ventures customer base to gain insights into their preferences, 
+      buying behaviours, and geographic distribution.
 #### - Data_Driven Planning:
-    - To enhance production planning, inventory management, and distribution strategies based on customer segments, thereby reducing overpoduction and minimize excess inventory.
+    - To enhance production planning, inventory management, and distribution strategies based on customer segments, 
+      thereby reducing overpoduction and minimize excess inventory.
 #### - Customer-centric Approach
     - To improve on-time deliveries, increase customer satisfaction and align production with customer demands.
 
@@ -66,11 +68,11 @@
 - Investigate Sales Trend by Month
 
 #### - Project Questions:
-    - #### Customer types by Location:
+    - Customer types by Location:
         - Show popular are our customers in each city? 
-    - #### Customers types by quantity sold: 
+    - Customers types by quantity sold: 
         - How well are the customers buying from us? (Customer monthly sales by trend)
-    - #### Sales Quantity of each customer type by month:
+    - Sales Quantity of each customer type by month:
         - What is the monthly sales by each customer type? (customer monthly sales trend)
     - What are the best selling SKUs based on quantity sold?
     - What is the current inventory levels of each SKU:
