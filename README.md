@@ -68,6 +68,7 @@
 - Investigate Sales Trend by Month
 
 #### - Project Questions:
+
     - Customer types by Location:
         - Show popular are our customers in each city? 
     - Customers types by quantity sold: 
