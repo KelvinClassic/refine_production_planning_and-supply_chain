@@ -9,24 +9,39 @@
 ### Aim of Project
 
 #### - Cutomer Segmentation:
-    - To segment and profile Mas-More Ventures customer base to gain insights into their preferences, 
-      buying behaviours, and geographic distribution.
+To segment and profile Mas-More Ventures customer base to gain insights into their preferences, buying behaviours, and geographic distribution.
 #### - Data_Driven Planning:
-    - To enhance production planning, inventory management, and distribution strategies based on customer segments, 
-      thereby reducing overpoduction and minimize excess inventory.
-#### - Customer-centric Approach
-    - To improve on-time deliveries, increase customer satisfaction and align production with customer demands.
+To enhance production planning, inventory management, and distribution strategies based on customer segments, thereby reducing overpoduction and minimize excess inventory.
+#### - Customer-centric Approach:
+To improve on-time deliveries, increase customer satisfaction and align production with customer demands.
 
 ### Data Description
 
 - Customer Data
-    - 
+    - Customer_ID: A unique identifier for each customer.
+    - Age (year): The age of the customer in years.
+    - Gender: The gender of the customer (Male, Female, etc.)
+    - Income ($): The annual income of the customer in dollars.
+    - Geographic Locaton: The customers' geographic locations. 
 - Sales Data
-    -
+    -Transaction_ID: A unique identifier for each sales transaction.
+    - Customer_ID: The identifier linking each sale to a customer.
+    - Prodcut SKU: Unique identifier for each product.
+    - Quantity Sold: The number of units sold for each product, in each transaction.
+    - Timestamp: The date and time of each transaction
 - Inventory Data
-    -
+    - Product SKU: Unique identifier for each product, linking to sales data.
+    - Current Inventory Level (units): the number of units of each product currently in inventory.
+    - Stockout (days): The number of days a product has been out of stock.
+    - Repleishment Lead Time: The number of days it takes to replenish inventory.
+    - Storage Location: The location where the product is stored.
+    - Shelf Life (days): The number of days a product can be stored before expiration.
 - Production Data
-    -
+    - Product SKU: Unique identifier for each product, linking to sales and inventory data.
+    - Production Schedule_ID: A unique identifier for each production schedule.
+    - Lead TIme (days): The time required for manufacturing and distribution.
+    - Production Capacities (unit per hour): The number of units that can be produced per hour.
+    - Resources Allocation: Informaiton about the allocation of resources for production.
 
 ### Project Scope
 
@@ -69,14 +84,11 @@
 
 #### - Project Questions:
 
-    - Customer types by Location:
-        - Show popular are our customers in each city? 
-    - Customers types by quantity sold: 
-        - How well are the customers buying from us? (Customer monthly sales by trend)
-    - Sales Quantity of each customer type by month:
-        - What is the monthly sales by each customer type? (customer monthly sales trend)
-    - What are the best selling SKUs based on quantity sold?
-    - What is the current inventory levels of each SKU:
-        - visualize the top SKUs by each customer
-    - What is out of stock and by how many days can it be replenished?
-    - What is the current production capacity for each SKU in hours?
+- Customer types by Location: Show popular are our customers in each city? 
+- Customers types by quantity sold: 
+- How well are the customers buying from us? (Customer monthly sales by trend)
+- Sales Quantity of each customer type by month: What is the monthly sales by each customer type? (customer monthly sales trend)
+- What are the best selling SKUs based on quantity sold?
+- What is the current inventory levels of each SKU: visualize the top SKUs by each customer
+- What is out of stock and by how many days can it be replenished?
+- What is the current production capacity for each SKU in hours?
