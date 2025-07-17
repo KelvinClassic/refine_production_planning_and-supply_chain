@@ -82,7 +82,7 @@ To improve on-time deliveries, increase customer satisfaction and align producti
     - Quantity of product sold, by Geographic Location, by Product SKU
 - Investigate Sales Trend by Month
 
-#### - Project Questions:
+#### Project Questions:
 
 - Customer types by Location: Show popular are our customers in each city? 
 - Customers types by quantity sold: 
@@ -92,3 +92,5 @@ To improve on-time deliveries, increase customer satisfaction and align producti
 - What is the current inventory levels of each SKU: visualize the top SKUs by each customer
 - What is out of stock and by how many days can it be replenished?
 - What is the current production capacity for each SKU in hours?
+
+[View data](working_dir\data_visualization.pdf)
