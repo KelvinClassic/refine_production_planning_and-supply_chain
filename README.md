@@ -1,22 +1,19 @@
-# refine_production_planning_and_supply_chain
+# Refine Production Planning and Supply Chain
+
+### About the Business
+Mas-More Solutions is a West Africa recognized industry leader in field of customer electronics and household appliances. The company has consistently pushed the boundaries of innovation, earning a reputation for cutting-edge technology and unparlleled product quality. Over the years, Mas_more Solutions has garned numerous industry accolades, including the prestigious Innovation Award at the International Electronics Show for its groundbreaking smart home appliances.
 
 ### Problem Statement
-
-- Inefficient Production
-- Customer Disconnection
-- Inventory Management
+- Inefficient Production: Relying on historical data often results in overproduction or underproduction, causing operational inefficiencies and increaded costs.
+- Customer Disconnection: The company lacks a deep understanding of its diverse customer base, making it challenging to align with specific customer demands.
+- Inventory Management: Ineddicient production planning has led to excess inventory, tying ip valuable resources and impacting the company's profitability.
 
 ### Aim of Project
-
-#### - Cutomer Segmentation:
-To segment and profile Mas-More Ventures customer base to gain insights into their preferences, buying behaviours, and geographic distribution.
-#### - Data_Driven Planning:
-To enhance production planning, inventory management, and distribution strategies based on customer segments, thereby reducing overpoduction and minimize excess inventory.
-#### - Customer-centric Approach:
-To improve on-time deliveries, increase customer satisfaction and align production with customer demands.
+- Customer Segmentation: To segment and profile Mas-More Ventures customer base to gain insights into their preferences, buying behaviours, and geographic distribution.
+- Data_Driven Planning: To enhance production planning, inventory management, and distribution strategies based on customer segments, thereby reducing overpoduction and minimize excess inventory.
+- Customer-centric Approach: To improve on-time deliveries, increase customer satisfaction and align production with customer demands.
 
 ### Data Description
-
 - Customer Data
     - Customer_ID: A unique identifier for each customer.
     - Age (year): The age of the customer in years.
@@ -44,18 +41,15 @@ To improve on-time deliveries, increase customer satisfaction and align producti
     - Resources Allocation: Informaiton about the allocation of resources for production.
 
 ### Project Scope
-
 - Exploratory Data Analysis
 - Daat Analysis
 - Visualisation and report
 - Recommendation 
 
 ### Tech Stack
-
 - Microsft Excel
 
 ### Procedures
-
 - Data Cleaning and Processing
     - Import data to Excel Worksheets 
         - Data -> Get External Data -> From Other Sources -> From XML Data Import
@@ -83,7 +77,6 @@ To improve on-time deliveries, increase customer satisfaction and align producti
 - Investigate Sales Trend by Month
 
 #### Project Questions:
-
 - Customer types by Location: Show popular are our customers in each city? 
 - Customers types by quantity sold: 
 - How well are the customers buying from us? (Customer monthly sales by trend)
